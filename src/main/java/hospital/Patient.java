@@ -4,6 +4,8 @@ public class Patient implements Bleedable {
 
 	static final int DEFAULT_BLOODS = 42;
 	private int bloods = DEFAULT_BLOODS;
+	static final int DEFAULT_HEALTH=10; 
+	private int health = DEFAULT_HEALTH; 
 
 	public int getBloods() {
 		return bloods;
@@ -12,8 +14,18 @@ public class Patient implements Bleedable {
 
 	@Override
 	public void removeBlood(int amount) {
-		// TODO Auto-generated method stub
+
 		bloods -= amount;
+	}
+
+	public int getHealth() {
+
+		return health;
+	}
+
+	public void giveHealth(int amount) {
+		health +=amount;
+		
 	}
 
 }
