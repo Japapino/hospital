@@ -19,8 +19,6 @@ public class hospitalApp {
 		System.out.println("Here are the employees with Medical Duties: ");
 		hospital.showMedicalPersonnel();
 		
-		
-		
 
 	}
 
