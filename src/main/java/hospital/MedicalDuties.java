@@ -1,6 +1,6 @@
 package hospital;
 
-public interface MedicalDuties {
+interface MedicalDuties {
 
 	void drawBlood(Bleedable patient);
 
